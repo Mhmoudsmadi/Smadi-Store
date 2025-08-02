@@ -1,0 +1,199 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+    overflow-x:hidden;
+    max-width: 100%;
+    margin:0;
+    margin-bottom: 150px;
+
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Andika';
+    
+}
+.logo{
+  margin-right: 0.5%;
+}
+#bg{
+     background-repeat: no-repeat;
+    min-height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+}
+#banner_content {
+    background-color: rgba(40, 136, 196, 0.7);
+    
+}
+.carousel-inner img {
+    width: 100%;
+    height:100%;
+}
+.footer{
+    position: absolute;
+    margin-top: 50px;
+    background-color: #1f1111;
+    min-height:150px;
+    padding-top:40px;
+    width: 100%;
+   
+    bottom: 0;
+    
+}
+.container  a {
+    color:black;
+}
+.container a:hover{
+    color:rgb(0, 208, 255);
+    
+}
+.jumbotron  {
+    background-color:rgb(180, 242, 254);
+    zoom: 100%;
+
+}
+
+#watch:hover{
+    transition: calc();
+}
+
+#size{
+    max-height:200px;
+}
+th{
+  background-color: #c38636;
+  text-align:center;
+
+}
+.card,.cards {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .card:hover,.cards:hover {
+    background-color: rgb(74, 127, 146);
+  }
+ 
+  
+
+
+
+
+
+
+.rows {
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: space-between; /* Add space between cards */
+    gap: 10px; /* Add minimal spacing between cards */
+}
+
+.cards {
+    flex: 1 1 calc(25% - 10px); /* Ensure 4 sections fit in a row */
+    box-sizing: border-box; /* Include padding and borders in width */
+    border: 1px solid #ddd; /* Add a light border */
+    border-radius: 0.5rem; /* Add rounded corners */
+    padding: 10px; /* Add some padding inside the card */
+    background-color: #fff; /* Optional: Add background color */
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto; /* Ensure images are responsive */
+    border-radius: 0.5rem; /* Add rounded corners to images */
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex: 1 1 calc(50% - 10px); /* Two sections per row on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .cards {
+        flex: 1 1 100%; /* Full width on very small screens */
+    }
+}
+
+
+
+
+.bodyy {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+.headerr {
+    background-color: rgb(180, 242, 254);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 0.5%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.containerr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.product-image {
+    flex: 1;
+    margin: 10px 20px 20px 20px;
+}
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.product-details {
+    flex: 1;
+    line-height: 1.8;
+}
+.product-details h2 {
+    color: #007bff;
+    text-align: center;
+}
+.product-details p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.buy-now {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.buy-now a {
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+.buy-now a:hover {
+    background-color: #218838;
+}
+
+
+
